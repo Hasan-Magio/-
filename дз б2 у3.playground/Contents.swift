@@ -80,8 +80,64 @@ print(total)
 
 
 // задача 2
+class Workout {
+    let time: Double
+    let distance: Double
+    
+    init(time: Double, distance: Double) {
+        self.time = time
+        self.distance = distance
+    }
+    
+}
 
+class Run: Workout {
+    let cadence: Double
+    
+    init(cadence: Double, time: Double, distance: Double) {
+        self.cadence = cadence
+        super.init(time: time, distance: distance)
+    }
+}
 
+class Swim: Workout {
+    let stroke: String
+    
+    init(stroke: String, time: Double, distance: Double) {
+        self.stroke = stroke
+        super.init(time: time, distance: distance)
+    }
+}
+var workouts: [Workout] = [
+    Run(cadence: 100, time: 1200, distance: 24000),
+    Swim(stroke: "Butterfly", time: 100, distance: 1000),
+    Swim(stroke: "Free stroke", time: 200, distance: 2000),
+    Swim(stroke: "Vacok", time: 400, distance: 13000),
+    Run(cadence: 200, time: 700, distance: 3000)
 
+]
 
+func describeRun(runningWorkout: Run) {
+    print("Running Workout")
+    print("cadence will be \(runningWorkout.cadence)")
+    print("time will be \(runningWorkout.time)")
+    print("distance \(runningWorkout.distance)")
+}
 
+func describeSwim(swimmingWorkout: Swim) {
+    print("Swimming Workout")
+    print("""
+We need \(swimmingWorkout.stroke).
+OK?
+""")
+    print("time will be \(swimmingWorkout.time)")
+    print("distance \(swimmingWorkout.distance)")
+}
+
+for work in workouts {
+    if let runningWorkout = workouts as? Run {
+        describeRun(runningWorkout: runningWorkout)
+    } else if let swimmingWorkout = workouts as? Swim {
+        describeSwim(swimmingWorkout: swimmingWorkout)
+    }
+}
