@@ -13,10 +13,11 @@
 		6785B2C92A8FCDB600039A56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6785B2C72A8FCDB600039A56 /* Main.storyboard */; };
 		6785B2CB2A8FCDB700039A56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6785B2CA2A8FCDB700039A56 /* Assets.xcassets */; };
 		6785B2CE2A8FCDB700039A56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6785B2CC2A8FCDB700039A56 /* LaunchScreen.storyboard */; };
+		678F71922A90C3400085F030 /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678F71912A90C3400085F030 /* UserDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6785B2BE2A8FCDB600039A56 /* БЛОК 2 УРОК 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "БЛОК 2 УРОК 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6785B2BE2A8FCDB600039A56 /* Б2 У 3 (навигации контроллеры переходы.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Б2 У 3 (навигации контроллеры переходы.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6785B2C12A8FCDB600039A56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6785B2C32A8FCDB600039A56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6785B2C52A8FCDB600039A56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +25,7 @@
 		6785B2CA2A8FCDB700039A56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6785B2CD2A8FCDB700039A56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6785B2CF2A8FCDB700039A56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		678F71912A90C3400085F030 /* UserDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +42,7 @@
 		6785B2B52A8FCDB600039A56 = {
 			isa = PBXGroup;
 			children = (
-				6785B2C02A8FCDB600039A56 /* БЛОК 2 УРОК 3 */,
+				6785B2C02A8FCDB600039A56 /* Б2 У3 НАВИГАЦИИ ПЕРЕХОДЫ КОНТРОЛЛЕРЫ */,
 				6785B2BF2A8FCDB600039A56 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +50,32 @@
 		6785B2BF2A8FCDB600039A56 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6785B2BE2A8FCDB600039A56 /* БЛОК 2 УРОК 3.app */,
+				6785B2BE2A8FCDB600039A56 /* Б2 У 3 (навигации контроллеры переходы.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6785B2C02A8FCDB600039A56 /* БЛОК 2 УРОК 3 */ = {
+		6785B2C02A8FCDB600039A56 /* Б2 У3 НАВИГАЦИИ ПЕРЕХОДЫ КОНТРОЛЛЕРЫ */ = {
 			isa = PBXGroup;
 			children = (
 				6785B2C12A8FCDB600039A56 /* AppDelegate.swift */,
 				6785B2C32A8FCDB600039A56 /* SceneDelegate.swift */,
+				678F71912A90C3400085F030 /* UserDetailsViewController.swift */,
 				6785B2C52A8FCDB600039A56 /* ViewController.swift */,
 				6785B2C72A8FCDB600039A56 /* Main.storyboard */,
 				6785B2CA2A8FCDB700039A56 /* Assets.xcassets */,
 				6785B2CC2A8FCDB700039A56 /* LaunchScreen.storyboard */,
 				6785B2CF2A8FCDB700039A56 /* Info.plist */,
 			);
-			path = "БЛОК 2 УРОК 3";
+			path = "Б2 У3 НАВИГАЦИИ ПЕРЕХОДЫ КОНТРОЛЛЕРЫ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6785B2BD2A8FCDB600039A56 /* БЛОК 2 УРОК 3 */ = {
+		6785B2BD2A8FCDB600039A56 /* Б2 У 3 (навигации контроллеры переходы */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6785B2D22A8FCDB700039A56 /* Build configuration list for PBXNativeTarget "БЛОК 2 УРОК 3" */;
+			buildConfigurationList = 6785B2D22A8FCDB700039A56 /* Build configuration list for PBXNativeTarget "Б2 У 3 (навигации контроллеры переходы" */;
 			buildPhases = (
 				6785B2BA2A8FCDB600039A56 /* Sources */,
 				6785B2BB2A8FCDB600039A56 /* Frameworks */,
@@ -82,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = "БЛОК 2 УРОК 3";
+			name = "Б2 У 3 (навигации контроллеры переходы";
 			productName = "БЛОК 2 УРОК 3";
-			productReference = 6785B2BE2A8FCDB600039A56 /* БЛОК 2 УРОК 3.app */;
+			productReference = 6785B2BE2A8FCDB600039A56 /* Б2 У 3 (навигации контроллеры переходы.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6785B2B92A8FCDB600039A56 /* Build configuration list for PBXProject "БЛОК 2 УРОК 3" */;
+			buildConfigurationList = 6785B2B92A8FCDB600039A56 /* Build configuration list for PBXProject "Б2 У 3 (навигации контроллеры переходы" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6785B2BD2A8FCDB600039A56 /* БЛОК 2 УРОК 3 */,
+				6785B2BD2A8FCDB600039A56 /* Б2 У 3 (навигации контроллеры переходы */,
 			);
 		};
 /* End PBXProject section */
@@ -140,6 +143,7 @@
 			files = (
 				6785B2C62A8FCDB600039A56 /* ViewController.swift in Sources */,
 				6785B2C22A8FCDB600039A56 /* AppDelegate.swift in Sources */,
+				678F71922A90C3400085F030 /* UserDetailsViewController.swift in Sources */,
 				6785B2C42A8FCDB600039A56 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,9 +306,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "hasanius.-----2------3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -330,16 +337,19 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "hasanius.-----2------3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6785B2B92A8FCDB600039A56 /* Build configuration list for PBXProject "БЛОК 2 УРОК 3" */ = {
+		6785B2B92A8FCDB600039A56 /* Build configuration list for PBXProject "Б2 У 3 (навигации контроллеры переходы" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6785B2D02A8FCDB700039A56 /* Debug */,
@@ -348,7 +358,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6785B2D22A8FCDB700039A56 /* Build configuration list for PBXNativeTarget "БЛОК 2 УРОК 3" */ = {
+		6785B2D22A8FCDB700039A56 /* Build configuration list for PBXNativeTarget "Б2 У 3 (навигации контроллеры переходы" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6785B2D32A8FCDB700039A56 /* Debug */,
